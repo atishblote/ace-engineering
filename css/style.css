@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+.bg_image_hero {
+  background-image: linear-gradient(45deg, #0000004f, transparent),
+    url(../img/hero-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg_whatwedo{
+    background-image: linear-gradient(45deg, #0000004f, transparent),
+    url(../img/what-we-do.png);
+  background-position: center;
+  background-size: cover;
+  height: auto;
+  background-repeat: no-repeat;
+}
+@keyframes expandAndColor {
+  0% {
+    width: 78%; /* Approximate starting width */
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+
+.button-div a {
+  transition: 0.5s ease-in-out;
+}
+.button-div a > span{
+  transition: 0.5s ease-in-out;
+
+    width: 78%;
+}
+.button-div a:hover span {
+  transition: 0.5s ease-in-out;
+
+animation: expandAndColor 0.3s ease-in-out forwards;
+}
+.button-div a svg {
+position: absolute;
+  transition: 1s ease-in-out;
+  right: 0px;
+  bottom: 15px;
+  z-index: 2;
+}
+.button-div a:hover svg {
+  transition: 1s ease-in-out;
+}
