@@ -27,6 +27,10 @@
   }
 }
 
+.w_2{
+  min-width: 190px;
+  padding: auto 20px;
+}
 
 .button-div a {
   transition: 0.5s ease-in-out;
@@ -50,4 +54,20 @@ position: absolute;
 }
 .button-div a:hover svg {
   transition: 1s ease-in-out;
+}
+
+
+.image_div{
+  height: 350px;
+}
+.image_div img{
+  height: 100%;
+  object-fit: cover;
+}
+.bg_footer{
+  background-image: linear-gradient(45deg, #403636ed, #403636f1), url(https://images3.alphacoders.com/100/thumb-1920-1004589.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  
 }
